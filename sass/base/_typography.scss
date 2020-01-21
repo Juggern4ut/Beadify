@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  color: $color-text;
+  background-color: $color-background;
+}
+
+a{
+	color: $color-primary;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p{
+  margin-bottom: 5px;
+  &:first-of-type{
+    margin-top: 0;
+  }
+}

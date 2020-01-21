@@ -1,0 +1,16 @@
+.color-drawer {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    margin: 5px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #e08a09;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="dist/css/main.css">
+  <title>Dotify</title>
+</head>
+<body>
+  <form class="form" id="form">
+  
+    <p>Element size</p>
+    <div class="slidecontainer">
+      <input type="range" min="5" max="100" value="20" class="form__slider" id="size_slider">
+    </div>
+    <input disabled class="form__input form__input--text" type="text" value="20" id="element_size" />
+    
+    <p>File</p>
+    <label class="form__label" for="fileChooser">Select image</label>
+    <input type="file" name="fileChooser" id="fileChooser" accept="image/jpeg" class="form__upload" />
+
+    <p>Colors</p>
+    <div id="color-drawer" class="color-drawer"></div>
+    <button class="button" id="color-button" type="button">Add Color</button>
+
+    <select id="compare_type">
+      <option value="rgb"> Compare by RGB</option>
+      <option value="hsl"> Compare by HSL</option>
+      <option value="hue"> Compare by Hue</option>
+    </select>
+
+    <br>
+
+    <button class="button">Render</button>
+  
+  </form>
+  <hr />
+  <canvas id="canvas_colorpicker" class="color-picker" width="250" height="100"></canvas>
+  <canvas id="canvas_source" width="400" height="400"></canvas>
+  <canvas id="canvas_result" width="400" height="400"></canvas>
+  <script src="dist/js/app.min.js"></script>
+</body>
+</html>

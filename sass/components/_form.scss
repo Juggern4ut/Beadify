@@ -1,0 +1,51 @@
+.form {
+  width: 300px;
+  text-align: left;
+  background-color: #3d4981;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px;
+  border: 10px solid #fff;
+
+  &__input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 30px;
+    font-size: 15px;
+    color: #3d4981;
+
+    &--text {
+      padding: 5px;
+    }
+
+    &--select {
+      appearance: none;
+    }
+  }
+
+  &__slider {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  &__label {
+    display: block;
+    color: #3d4981;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__upload {
+    display: none;
+  }
+}

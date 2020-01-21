@@ -1,0 +1,8 @@
+/// Centers a absolute positioned element
+/// @author Lukas Meier
+/// @group Abstracts
+@mixin center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

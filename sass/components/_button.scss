@@ -1,0 +1,30 @@
+/// Simple Button
+/// @author Lukas Meier
+/// @group Components
+
+.button {
+  background-color: $color-primary;
+  color: $color-light;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out;
+
+  &:not(:last-of-type){
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    background-color: lighten($color-primary, 10);
+    text-decoration: none;
+    color: $color-light;
+  }
+
+  &--large {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+}
