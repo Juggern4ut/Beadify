@@ -2,7 +2,7 @@ let drawing = new Image();
 let canvas_width = 0;
 let canvas_height = 0;
 
-drawing.src = "../../res/sample.jpg";
+drawing.src = "https://juggern4ut.github.io/Beadify/res/sample.jpg";
 
 drawing.addEventListener("load", () => {
   canvas_height = drawing.naturalHeight;
