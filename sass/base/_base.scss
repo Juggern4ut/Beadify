@@ -1,11 +1,31 @@
-body{
+body {
   text-align: center;
 }
 
-hr{
+hr {
   height: 1px;
   width: 100%;
   display: block;
   border: 0;
   background-color: #444;
+}
+
+.align-right {
+  text-align: justify;
+}
+
+#info_handler {
+  font-size: 10px;
+  color: #dedede;
+  cursor: help;
+}
+
+#compare_type {
+  width: 100%;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #05124d;
+  color: #fff;
+  padding: 0.5rem;
 }

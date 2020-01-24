@@ -1,13 +1,18 @@
 .color-drawer {
   display: flex;
   flex-wrap: wrap;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
 
   div {
     margin: 5px;
-    width: 18px;
+    width: 16px;
     height: 18px;
-    border: 1px solid #000;
     flex-grow: 1;
+    border: 1px solid #000;
     cursor: pointer;
     &:hover {
       border: 1px solid #e08a09;
