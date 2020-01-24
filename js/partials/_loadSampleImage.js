@@ -2,7 +2,7 @@ let drawing = new Image();
 let canvas_width = 0;
 let canvas_height = 0;
 
-drawing.src = "../../res/sample2.jpg";
+drawing.src = "res/sample1.jpg";
 
 drawing.addEventListener("load", () => {
   canvas_height = drawing.naturalHeight;
