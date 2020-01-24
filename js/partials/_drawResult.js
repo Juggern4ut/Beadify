@@ -9,7 +9,7 @@ const drawResult = () => {
       let file = files[0];
       image_url = window.URL.createObjectURL(file);
     } else {
-      image_url = "../res/sample.jpg";
+      image_url = "res/sample.jpg";
     }
 
     let new_image = new Image();
