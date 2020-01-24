@@ -37,8 +37,6 @@ const drawResult = () => {
 const generateDrawing = element_size => {
   
   let compareType = document.getElementById("compare_type").value;
-  console.log(compareType);
-  
 
   context_result.clearRect(0, 0, canvas_width, canvas_height);
 
